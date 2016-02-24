@@ -1,6 +1,6 @@
 {
   "name": "node-mongo-mtg-card-models",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A set of mongoose models to represent Magic the Gathering cards in node.js",
   "main": "main.js",
   "scripts": {
