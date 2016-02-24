@@ -38,7 +38,9 @@ var card = {
 		format: String,
 		legality: String
 	}],
-	source: String
+	source: String,
+	setCode: String,
+	setName: String
 }
 
 var cardSchema = new mongoose.Schema(card);
