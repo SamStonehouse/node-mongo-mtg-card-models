@@ -43,8 +43,8 @@ var card = {
 
 var cardSchema = new mongoose.Schema(card);
 
-module.exports {
+module.exports = {
 	object: card,
 	schema: cardSchema,
-	model: mongoose.model('Card', cardSchema);
+	model: mongoose.model('Card', cardSchema)
 }

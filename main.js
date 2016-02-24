@@ -1,9 +1,11 @@
 var Card = require('./source/card');
 var SetlessCard = require('./source/setless-card');
 var Set = require('./source/set');
+var CardlessSet = require('./source/cardless-set');
 
-mdoule.exports = {
+module.exports = {
 	Card: Card,
 	SetlessCard: SetlessCard,
-	Set: Set
+	Set: Set,
+	CardlessSet: CardlessSet
 };

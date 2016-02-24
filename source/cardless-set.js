@@ -1,5 +1,4 @@
 var mongoose = require('mongoose');
-var cardSchema = require('./card').schema;
 
 var set = {
 	name: String,
@@ -12,8 +11,7 @@ var set = {
 	type: String,
 	block: String,
 	onlineOnly: Boolean,
-	booster: [String],
-	cards: [cardSchema]
+	booster: [String]
 }
 
 var setSchema = new mongoose.Schema(set);
@@ -21,5 +19,5 @@ var setSchema = new mongoose.Schema(set);
 module.exports = {
 	object: set,
 	schema: setSchema,
-	model: mongoose.model('Set', setSchema)
+	model: mongoose.model('CardlessSet', setSchema)
 }
