@@ -1,11 +1,11 @@
 var Card = require('./source/card');
-var SetlessCard = require('./source/setless-card');
+var UnlinkedCard = require('./source/unlinked-card');
 var Set = require('./source/set');
-var CardlessSet = require('./source/cardless-set');
+var UnlinkedSet = require('./source/unlinked-set');
 
 module.exports = {
 	Card: Card,
-	SetlessCard: SetlessCard,
+	UnlinkedCard: UnlinkedCard,
 	Set: Set,
-	CardlessSet: CardlessSet
+	UnlinkedSet: UnlinkedSet
 };
